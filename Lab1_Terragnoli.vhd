@@ -41,20 +41,30 @@ end Lab1_Terragnoli;
 
 architecture Behavioral of Lab1_Terragnoli is
 --signal declarations: 
-signal D: std_logic;
-signal E: std_logic;
-signal F: std_logic;
-signal H: std_logic;
-signal I: std_logic;
-signal J: std_logic;
-signal K: std_logic;
-signal L: std_logic;
-signal M: std_logic;
-signal N: std_logic;
-signal O: std_logic;
+signal A_NOT: STD_LOGIC;
+signal B_NOT: STD_LOGIC;
+signal C_NOT: STD_LOGIC;
+signal H: STD_LOGIC;
+signal I: STD_LOGIC;
+signal J: STD_LOGIC;
+signal K: STD_LOGIC;
+signal L: STD_LOGIC;
+signal M: STD_LOGIC;
+signal N: STD_LOGIC;
+signal O: STD_LOGIC;
 
 begin
+A_NOT <= not A;
+B_NOT <= not B;
+C_NOT <= not C;
 
+H<= A and B_NOT and C_NOT;
+I<= A_NOT and B;
+J<=A_NOT and C;
+
+X<=H or I or J; 
+
+K<=B_NOT;
 
 end Behavioral;
 
