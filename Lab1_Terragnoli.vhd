@@ -49,9 +49,6 @@ signal I: STD_LOGIC;
 signal J: STD_LOGIC;
 signal K: STD_LOGIC;
 signal L: STD_LOGIC;
-signal M: STD_LOGIC;
-signal N: STD_LOGIC;
-signal O: STD_LOGIC;
 
 begin
 A_NOT <= not A;
@@ -64,7 +61,13 @@ J<=A_NOT and C;
 
 X<=H or I or J; 
 
-K<=B_NOT;
+K<=B_NOT and C;
+L<=B and C_NOT;
+
+Y<= K or L;
+
+Z<= C; 
+
 
 end Behavioral;
 
