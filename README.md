@@ -3,7 +3,7 @@ ECE281_Lab1
 
 
 #**Truth Table**
-![alt tag](https://github.com/JohnTerragnoli/ECE281_Lab1/blob/master/Truth%20Table.PNG "Truth Table")
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Truth%20Table.PNG "Truth Table")
 
 
 #**Schematic**
