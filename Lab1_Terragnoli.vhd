@@ -19,7 +19,8 @@
 --
 ----------------------------------------------------------------------------------
 library IEEE;
---sets up a library that sets up signed and unsigned bits.  
+--sets up a library that sets up signed and unsigned bits. 
+--basically it allows us to add one to a vector/array of bits.   
 use IEEE.NUMERIC_STD.ALL;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -37,8 +38,8 @@ entity Lab1_Terragnoli is
     Port ( A:in STD_Logic_vector (7 DOWNTO 0);
 	 Z: out STD_LOGIC_VECTOr(7 DOWNTO 0));
 	 
-	 
-	 --A : in  STD_LOGIC;
+	 --initializations for the 3 bit is below.  
+				--A : in  STD_LOGIC;
            --B : in  STD_LOGIC;
            --C : in  STD_LOGIC;
            --X : out  STD_LOGIC;
@@ -47,6 +48,7 @@ entity Lab1_Terragnoli is
 end Lab1_Terragnoli;
 
 architecture Behavioral of Lab1_Terragnoli is
+--this is only necessary for the 3 bit inverter
 --signal declarations: 
 --signal A_NOT: STD_LOGIC;
 --signal B_NOT: STD_LOGIC;
@@ -58,9 +60,11 @@ architecture Behavioral of Lab1_Terragnoli is
 --signal L: STD_LOGIC;
 
 begin
---this is for the 8 bit converter
+--this is for the 8 bit inverter
 Z <= STD_LOGIC_VECTOR(UNSIGNED(not A)+1); 
 
+
+--below is for the 3 bit inverter
 --A_NOT <= not A;
 --B_NOT <= not B;
 --C_NOT <= not C;
