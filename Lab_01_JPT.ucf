@@ -1,7 +1,9 @@
 #YOU ONLY HAVE TO DO THIS FOR INPUTS AND OUPUTS!!!
 #CRUISING!!
  
-
+ 
+ 
+#these are the inputs for the 8 bit
 NET "A(7)" LOC = "R17";
 NET "A(6)" LOC = "N17";
 NET "A(5)" LOC = "L13";
@@ -17,7 +19,7 @@ NET "A(0)" LOC = "G18";
 #NET "A" LOC = "K18"; # Type = INPUT, Sch name = SW2
 
 
-#These are the outputs FOR THE THREE BIT
+#These are the outputs FOR THE 8BIT
 NET "Z(7)" LOC = "R4"; # Type = INPUT, Sch name = SW0
 NET "Z(6)" LOC = "F4"; # Type = INPUT, Sch name = SW0
 NET "Z(5)" LOC = "P15"; # Type = INPUT, Sch name = SW0
@@ -26,5 +28,9 @@ NET "Z(3)" LOC = "K14"; # Type = INPUT, Sch name = SW0
 NET "Z(2)" LOC = "K15"; # Type = INPUT, Sch name = SW0
 NET "Z(1)" LOC = "J15"; # Type = INPUT, Sch name = SW0
 NET "Z(0)" LOC = "J14"; # Type = INPUT, Sch name = SW0
+
+
+#These are the outputs for the 3 bit
+#NET "Z" LOC = "J14";
 #NET "Y" LOC = "J15";
 #NET "X" LOC = "K15";
