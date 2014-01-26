@@ -1,12 +1,30 @@
 #YOU ONLY HAVE TO DO THIS FOR INPUTS AND OUPUTS!!!
 #CRUISING!!
-#These are the inputs.  
-NET "C" LOC = "G18"; # Type = INPUT, Sch name = SW0
-NET "B" LOC = "H18"; # Type = INPUT, Sch name = SW1
-NET "A" LOC = "K18"; # Type = INPUT, Sch name = SW2
+ 
+
+NET "A(7)" LOC = "R17";
+NET "A(6)" LOC = "N17";
+NET "A(5)" LOC = "L13";
+NET "A(4)" LOC = "L14";
+NET "A(3)" LOC = "K17";
+NET "A(2)" LOC = "K18";
+NET "A(1)" LOC = "H18";
+NET "A(0)" LOC = "G18";
+
+#These are the inputs FOR THE 3 BIT. 
+#NET "C" LOC = "G18"; # Type = INPUT, Sch name = SW0
+#NET "B" LOC = "H18"; # Type = INPUT, Sch name = SW1
+#NET "A" LOC = "K18"; # Type = INPUT, Sch name = SW2
 
 
-#These are the outputs
-NET "Z" LOC = "J14";
-NET "Y" LOC = "J15";
-NET "X" LOC = "K15";
+#These are the outputs FOR THE THREE BIT
+NET "Z(7)" LOC = "R4"; # Type = INPUT, Sch name = SW0
+NET "Z(6)" LOC = "F4"; # Type = INPUT, Sch name = SW0
+NET "Z(5)" LOC = "P15"; # Type = INPUT, Sch name = SW0
+NET "Z(4)" LOC = "E17"; # Type = INPUT, Sch name = SW0
+NET "Z(3)" LOC = "K14"; # Type = INPUT, Sch name = SW0
+NET "Z(2)" LOC = "K15"; # Type = INPUT, Sch name = SW0
+NET "Z(1)" LOC = "J15"; # Type = INPUT, Sch name = SW0
+NET "Z(0)" LOC = "J14"; # Type = INPUT, Sch name = SW0
+#NET "Y" LOC = "J15";
+#NET "X" LOC = "K15";
