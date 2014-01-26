@@ -1,0 +1,12 @@
+#YOU ONLY HAVE TO DO THIS FOR INPUTS AND OUPUTS!!!
+#CRUISING!!
+#These are the inputs.  
+NET "C" LOC = "G18"; # Type = INPUT, Sch name = SW0
+NET "B" LOC = "H18"; # Type = INPUT, Sch name = SW1
+NET "A" LOC = "K18"; # Type = INPUT, Sch name = SW2
+
+
+#These are the outputs
+NET "Z" LOC = "J14";
+NET "Y" LOC = "J15";
+NET "X" LOC = "K15";
