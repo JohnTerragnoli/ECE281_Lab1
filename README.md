@@ -15,5 +15,4 @@ ECE281_Lab1
 #**Analysis**
 The circuit was drawn after making the truth table, and the test waves were generating using ISE software.  The truth table does in fact match the results from the test on the ISE software.  This is good! This means that the schematic converts correctly.  
 
-The .ucf file was uploaded successfully.  The switches on the NEXYS 2 board work just like they are supposed to!!! Ths lights and the 
-This is awesome.  
+The .ucf file was uploaded successfully.  The switches on the NEXYS 2 board work just like they are supposed to!!! The lights and the switches are coordianted like a well oiled...computer.  Can't want to start on the rest.  This is awesome.  
