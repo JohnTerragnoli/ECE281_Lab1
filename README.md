@@ -14,7 +14,7 @@ Using the truth table, and K-map analysis, the Minimal SOP Equations were found 
 The X K-Map is below, along with the resulting minimal SOP Equation for the X output.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/X%20K-Map.PNG "X K-Map and Output Equation")
 
-Note: for the groups of 1 to be valid, the 1's must be adjacent.  
+
 
 
 The Y K-Map is below, along with the resulting minimal SOP Equation for the Y output. 
