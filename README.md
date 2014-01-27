@@ -3,6 +3,8 @@ ECE281_Lab1
 
 
 #**Truth Table (3 Bit)**
+A, B, and C are the input bits, with A being the most significant bit.  
+X, Y, and Z are the output bits, with X being the most significant bit.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Truth%20Table.PNG "Truth Table")
 
 
