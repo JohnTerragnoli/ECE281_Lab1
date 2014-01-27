@@ -7,10 +7,21 @@ A, B, and C are the input bits, with A being the most significant bit.
 X, Y, and Z are the output bits, with X being the most significant bit.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Truth%20Table.PNG "Truth Table")
 
-Using the truth table, and K-map analysis, the Minimal SOP Equations were found for the outputs X and Y.  
+
+#**K Maps for X and Y Output**
+Using the truth table, and K-map analysis, the Minimal SOP Equations were found for the outputs X and Y. 
+
+The X K-Map is below, along with the resulting minimal SOP Equation for the X output.  
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/X%20K-Map.PNG "X K-Map and Output Equation")
+
+
+The Y K-Map is below, along with the resulting minimal SOP Equation for the Y output. 
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Y%20K-mapPNG.PNG "Y K-Map and Output Equation")
 
 
 
+
+#**Boolean Simplification for Z output**
 The truth table was used along with boolean algebra to find the SOP Equation for output Z.  
 
 
