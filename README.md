@@ -30,6 +30,7 @@ The work to find this equation is below:
 
 
 #**Schematic for 3 Bit**
+The three logic equations created above were converted into a logic circuit, as can be seen below. 
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Terragnoli%20Schematic.JPG "Logic Circuit")
 
 #**Test Waves**
