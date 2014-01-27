@@ -35,7 +35,14 @@ The nodes NOT_A, NOT_B, NOT_C, H,I,J,K, and L were labeled for convenience.  Thi
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic3.PNG "Logic Circuit")
 
 #**ISE Project Navigator**
-The logic from this circuit was then recreated, using code, in a new project in ISE Project Navigator.  
+The logic from this circuit was then recreated, using code, in a new project in ISE Project Navigator. This was done so that the logic could be tested against many test cases, which is below.  Also, this same code was uploaded to the NEXYS 2.  
+
+This is how it was done: 
+1) a library was added to the beginning of the code for standard logic.  
+2) The names of the inputs and the outputs of the circuit were initialized and classified as standard logic signals.
+3) All of the wires in the middle of the circuit were named, just like the schematic above, initialized, and classified as standard logic signals.  
+4) In the "begin" seciton, the logic for how the wires, A, B, C, NOT-A, NOT_B, NOT_C, H,I,J,K,L,X,Y,AND Z relate was created.  This was done using basic commands such as "and", "or", and "not".  
+5) The hyperlink to the code is: 
 
 #**Test Waves**
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
