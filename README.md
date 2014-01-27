@@ -30,7 +30,7 @@ The work to find this equation is below:
 
 
 #**Schematic for 3 Bit**
-The three logic equations created above were converted into a logic circuit, as can be seen below. 
+The three logic equations created above were converted into a logic circuit, as can be seen below. If this circuit is given a 3 bit binary number, held by bits A, B, and C, it will output the inverse of that number in 2's complement through bits X, Y, and Z.
 The nodes H,I,J,K, and L were labeled for convenience.  This came in handy later when using ISE Project Manager to code the logic into the computer and from there, program the NEXYS 2 board.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic.PNG "Logic Circuit")
 
