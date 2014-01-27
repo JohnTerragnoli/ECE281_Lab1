@@ -31,7 +31,8 @@ The work to find this equation is below:
 
 #**Schematic for 3 Bit**
 The three logic equations created above were converted into a logic circuit, as can be seen below. 
-![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Terragnoli%20Schematic.JPG "Logic Circuit")
+The nodes H,I,J,K, and L were labeled for convenience.  This came in handy later when using ISE Project Manager to code the logic into the computer and from there, program the NEXYS 2 board.  
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic.PNG "Logic Circuit")
 
 #**Test Waves**
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
