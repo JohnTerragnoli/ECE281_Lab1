@@ -26,7 +26,7 @@ The Y K-Map is below, along with the resulting minimal SOP Equation for the Y ou
 #**Boolean Simplification for Z output**
 The truth table was used along with boolean algebra to find the SOP Equation for output Z.  
 The work to find this equation is below: 
-![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic3.PNG "Z Boolean Simplification and Output Equation")
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Simplifying%20Z%20output.PNG "Z Boolean Simplification and Output Equation")
 
 
 #**Schematic for 3 Bit**
