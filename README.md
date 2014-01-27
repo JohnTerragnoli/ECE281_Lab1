@@ -26,13 +26,13 @@ The Y K-Map is below, along with the resulting minimal SOP Equation for the Y ou
 #**Boolean Simplification for Z output**
 The truth table was used along with boolean algebra to find the SOP Equation for output Z.  
 The work to find this equation is below: 
-![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Simplifying%20Z%20output.PNG "Y K-Map and Output Equation")
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Simplifying%20Z%20output.PNG "Z Boolean Simplification and Output Equation")
 
 
 #**Schematic for 3 Bit**
 The three logic equations created above were converted into a logic circuit, as can be seen below. If this circuit is given a 3 bit binary number, held by bits A, B, and C, it will output the inverse of that number in 2's complement through bits X, Y, and Z.
 The nodes H,I,J,K, and L were labeled for convenience.  This came in handy later when using ISE Project Manager to code the logic into the computer and from there, program the NEXYS 2 board.  
-![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic.PNG "Logic Circuit")
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic2.PNG "Logic Circuit")
 
 #**Test Waves**
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
