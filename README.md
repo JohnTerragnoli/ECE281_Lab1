@@ -6,7 +6,7 @@ ECE281_Lab1
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Truth%20Table.PNG "Truth Table")
 
 
-#**Schematicfor 3 Bit**
+#**Schematic for 3 Bit**
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Terragnoli%20Schematic.JPG "Logic Circuit")
 
 #**Test Waves**
