@@ -7,6 +7,13 @@ A, B, and C are the input bits, with A being the most significant bit.
 X, Y, and Z are the output bits, with X being the most significant bit.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Truth%20Table.PNG "Truth Table")
 
+Using the truth table, and K-map analysis, the Minimal SOP Equations were found for the outputs X and Y.  
+
+
+
+The truth table was used along with boolean algebra to find the SOP Equation for output Z.  
+
+
 
 #**Schematic for 3 Bit**
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Terragnoli%20Schematic.JPG "Logic Circuit")
