@@ -59,7 +59,7 @@ It was done by:
 
 
 #**Test Waves for 3 bit 2's Compliment Inverter**
-The lines of this graph correspond to A,B,C,X,Y, and Z, from the top to the bottom.  
+The lines of this graph correspond to A,B,C,X,Y, and Z, from the top to the bottom.  A high line on the graph represents a 1, and a low line a 0.  Time is on the x axis.  For example, in the second interval, the inputs for A,B,and C are 0,0,and 1.  The inverse of 001 is 111.  The output for X,Y,and Z are 1,1,1, meaning that the correct inverse was calculated. This occurance is the same for all of the other intervals, meaning that the code in the .vhd file is all correct.  
 These results verify the truth table.  The output are what they should be for every single case of inputs.  
 Therefore, the code for the 3 bit 2's Compliment inverter is correct.  It is ready to be uploaded to the NEXYS 2.
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
