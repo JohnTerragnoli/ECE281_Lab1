@@ -69,7 +69,7 @@ A Universal Communications Format (.ucf) file was then created for the code for 
 
 **Note: The code used for the 8 bit 2's compliment converter is also in this file.  The code for the 3 bit is commented out.
 
-The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload the 3 bit 2's compliment inversion code to the NEXYS 2 board.  The bit file can be viewed in the repository.  
+The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload the 3 bit 2's compliment inversion code to the NEXYS 2 board.  The bit file can be viewed in the repository "ECE281_Lab1".
 
 #**Analysis**
 The circuit was drawn after making the truth table, and the test waves were generating using ISE software.  The truth table does in fact match the results from the test on the ISE software.  This is good! This means that the schematic converts correctly.  
