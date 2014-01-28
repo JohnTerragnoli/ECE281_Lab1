@@ -59,6 +59,8 @@ It was done by:
 
 
 #**Test Waves**
+The lines of this graph correspond to A,B,C,X,Y, and Z, from the top to the bottom.  
+These results verify the truth table.  The output are what they should be for every single case of inputs.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
 
 #**Analysis**
