@@ -64,7 +64,7 @@ These results verify the truth table.  The output are what they should be for ev
 Therefore, the code for the 3 bit 2's Compliment inverter is correct.  It is ready to be uploaded to the NEXYS 2.
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
 
-#**Uploading Code**
+#**Uploading Code for 3 bit 2's Compliment Inverter**
 A Universal Communications Format (.ucf) file was then created for the code for the 3 bit 2's compliment converter.  This type of file was used so that the code could be uploaded to the NEXYS 2.  The only thing that needed to be done for this was to name where the inputs would come from and where the outputs would appear on the NEXYS 2 board.  The link for the .ucf file is here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab_01_JPT.ucf
 
 **Note: The code used for the 8 bit 2's compliment converter is also in this file.  The code for the 3 bit is commented out.
@@ -74,8 +74,7 @@ The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload 
 
 
 #**3 Bit 2's Compliment Inverter Functionality Test**
-The functionality of the programmed NEXYS 2 was then tested.  It can be viewed on this video:  
-![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "3 bit test")
+The functionality of the programmed NEXYS 2 was then tested.  All tests worked perfectly.  
 
 #**Expanding to 8 Bits**
 After the 3 bit 2's Compliment inverter was deemed to have worked correctly, the code was expanded upon to work with 8 bit numbers, instead of just 3 bit numbers.  To do this, it was necessary to update the .vhd file that eventually programs the NEXYS 2 board.  The file that underwent modifications is posted here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd  
@@ -97,6 +96,7 @@ After these changes were made to the logic code, changes needed to be made to th
 1. 8 inputs were made, labeled A(0)->A(7)
 2. 8 outputs were made, labeled Z(0)->Z(7)
 3. The inputs were specified to be the switches on the NEXYS 2 board, and the outputs were labeled to be the LEDs above the switches.  
+4. The location of the inputs and outputs are written on the NEXYS 2 board.  
 
 The .ucf file was then uploaded to the NEXYS 2 board using the same process as for the 3 bit.  The 8 bit 2's compliment converter worked perfectly with multiple test cases.  
 
