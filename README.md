@@ -74,7 +74,7 @@ The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload 
 
 
 #**3 Bit 2's Compliment Inverter Functionality Test**
-The functionality of the programmed NEXYS 2 was then tested.  All tests worked perfectly.  
+The functionality of the programmed NEXYS 2 was then tested.  All tests worked perfectly and corresponded with the truth table.  
 
 #**Expanding to 8 Bits**
 After the 3 bit 2's Compliment inverter was deemed to have worked correctly, the code was expanded upon to work with 8 bit numbers, instead of just 3 bit numbers.  To do this, it was necessary to update the .vhd file that eventually programs the NEXYS 2 board.  The file that underwent modifications is posted here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd  
@@ -93,6 +93,7 @@ Also, the way to find the inverse in 2's compliment for the 8 bit was much diffe
 After these changes were made to the logic code, changes needed to be made to the .ucf file that determines where the inputs will be received and where the outputs will show up on the NEXYS 2 board.  Again, this file can be viewed at this link:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab_01_JPT.ucf
 
 *Changes made to the .ucf file:*
+
 1. 8 inputs were made, labeled A(0)->A(7)
 2. 8 outputs were made, labeled Z(0)->Z(7)
 3. The inputs were specified to be the switches on the NEXYS 2 board, and the outputs were labeled to be the LEDs above the switches.  
@@ -100,12 +101,6 @@ After these changes were made to the logic code, changes needed to be made to th
 
 The .ucf file was then uploaded to the NEXYS 2 board using the same process as for the 3 bit.  The 8 bit 2's compliment converter worked perfectly with multiple test cases.  
 
-
-
-#**Analysis**
-The circuit was drawn after making the truth table, and the test waves were generating using ISE software.  The truth table does in fact match the results from the test on the ISE software.  This is good! This means that the schematic converts correctly.  
-
-The .ucf file was uploaded successfully.  The switches on the NEXYS 2 board work just like they are supposed to!!! The lights and the switches are coordianted like a well oiled...computer.  Can't want to start on the rest.  This is awesome. 
 
 
 
