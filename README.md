@@ -65,7 +65,7 @@ Therefore, the code for the 3 bit 2's Compliment inverter is correct.  It is rea
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
 
 #**Uploading Code for 3 bit 2's Compliment Inverter**
-A Universal Communications Format (.ucf) file was then created for the code for the 3 bit 2's compliment converter.  This type of file was used so that the code could be uploaded to the NEXYS 2.  The only thing that needed to be done for this was to name where the inputs would come from and where the outputs would appear on the NEXYS 2 board.  The link for the .ucf file is here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab_01_JPT.ucf
+A Universal Communications Format (.ucf) file was then created for the code for the 3 bit 2's compliment converter.  This type of file was used so that the code could be uploaded to the NEXYS 2.  The only thing that needed to be done for this was to name where the inputs would come from and where the outputs would appear on the NEXYS 2 board.  The location of the inputs and outputs are written on the NEXYS 2 board.  The link for the .ucf file is here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab_01_JPT.ucf
 
 **Note: The code used for the 8 bit 2's compliment converter is also in this file.  The code for the 3 bit is commented out.
 
