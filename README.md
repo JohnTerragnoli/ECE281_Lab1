@@ -71,10 +71,24 @@ A Universal Communications Format (.ucf) file was then created for the code for 
 
 The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload the 3 bit 2's compliment inversion code to the NEXYS 2 board.  The bit file can be viewed in the repository "ECE281_Lab1".
 
+
+
+#**3 Bit 2's Compliment Inverter Functionality Test**
+The functionality of the programmed NEXYS 2 was then tested.  It can be viewed on this video:  
+![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "3 bit test")
+
+#**Expanding to 8 Bits**
+After the 3 bit 2's Compliment inverter was deemed to have worked correctly, the code was expanded upon to work with 8 bit numbers, instead of just 3 bit numbers.  To do this, it was necessary to update the .vhd file that eventually programs the NEXYS 2 board.  The file that underwent modifications is posted here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd  
+
+In fact, the modification are still in place in this file for the 8 bit 2's compliment converter.  Most of the coding was similar as the code for the 3 bit.  
+
+
+
 #**Analysis**
 The circuit was drawn after making the truth table, and the test waves were generating using ISE software.  The truth table does in fact match the results from the test on the ISE software.  This is good! This means that the schematic converts correctly.  
 
-The .ucf file was uploaded successfully.  The switches on the NEXYS 2 board work just like they are supposed to!!! The lights and the switches are coordianted like a well oiled...computer.  Can't want to start on the rest.  This is awesome.  
+The .ucf file was uploaded successfully.  The switches on the NEXYS 2 board work just like they are supposed to!!! The lights and the switches are coordianted like a well oiled...computer.  Can't want to start on the rest.  This is awesome. 
+
 
 
 #**Documentation**
