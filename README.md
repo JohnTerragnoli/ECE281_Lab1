@@ -35,7 +35,7 @@ The nodes NOT_A, NOT_B, NOT_C, H,I,J,K, and L were labeled for convenience.  Thi
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic3.PNG "Logic Circuit")
 
 #**Coding 3 bit 2's Compliment Inverter**
-This was done in ISE Project Navigator
+This was done in ISE Project Navigator.  This was a .vhd file.
 The logic from this circuit was then recreated, using code, in a new project in ISE Project Navigator. This was done so that the logic could be tested against many test cases, which is below.  Also, this same code was uploaded to the NEXYS 2.  
 
 This is how it was done: 
@@ -47,7 +47,7 @@ This is how it was done:
 **Note: This code also contains the code for the 8-bit 2's compliment inverter (explained later in README).  Most of the code for the 3 bit 2's compliment inverter in commented out with "--" preceding it.  
 
 #**Testing Code for 3 bit 2's Compliment Inverter**
-This was also done using ISE Project Navigator
+This was also done using ISE Project Navigator.  It was a .vhd file.
 
 It was done by: 
 1) Importing a standard logic library at the beginning of the code.
@@ -61,8 +61,15 @@ It was done by:
 #**Test Waves for 3 bit 2's Compliment Inverter**
 The lines of this graph correspond to A,B,C,X,Y, and Z, from the top to the bottom.  
 These results verify the truth table.  The output are what they should be for every single case of inputs.  
-Therefore, the code for the 3 bit 2's Compliment inverter is correct.  It is ready to be uploaded.  
+Therefore, the code for the 3 bit 2's Compliment inverter is correct.  It is ready to be uploaded to the NEXYS 2.
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Prelab%20waves.PNG "Text Waves")
+
+#**Uploading Code**
+A Universal Communications Format (.ucf) file was then created for the code for the 3 bit 2's compliment converter.  This type of file was used so that the code could be uploaded to the NEXYS 2.  The only thing that needed to be done for this was to name where the inputs would come from and where the outputs would appear on the NEXYS 2 board.  The link for the .ucf file is here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab_01_JPT.ucf
+
+**Note: The code used for the 8 bit 2's compliment converter is also in this file.  The code for the 3 bit is commented out.
+
+The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload the 3 bit 2's compliment inversion code to the NEXYS 2 board.  The bit file can be viewed in the repository.  
 
 #**Analysis**
 The circuit was drawn after making the truth table, and the test waves were generating using ISE software.  The truth table does in fact match the results from the test on the ISE software.  This is good! This means that the schematic converts correctly.  
