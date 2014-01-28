@@ -80,3 +80,4 @@ The .ucf file was uploaded successfully.  The switches on the NEXYS 2 board work
 #**Documentation**
 C3C Sabin Park helped explain to me the concept of a standard logic vector.  He said that it's like making an array out
 of it, and making the bits act like a number. From there, I was able to figure out that I just need to invert all of the bits, group them to be one number, and then add one to that number!  It was great.  
+I looked up the definition of a .ucf file on http://www.fileinfo.com/extension/ucf 
