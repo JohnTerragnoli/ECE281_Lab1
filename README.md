@@ -34,16 +34,28 @@ The three logic equations created above were converted into a logic circuit, as 
 The nodes NOT_A, NOT_B, NOT_C, H,I,J,K, and L were labeled for convenience.  This came in handy later when using ISE Project Manager to code the logic into the computer and from there, program the NEXYS 2 board.  
 ![alt tag](https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Proper%20Schematic3.PNG "Logic Circuit")
 
-#**ISE Project Navigator**
+#**Coding 3 bit 2's Compliment Inverter**
+This was done in ISE Project Navigator
 The logic from this circuit was then recreated, using code, in a new project in ISE Project Navigator. This was done so that the logic could be tested against many test cases, which is below.  Also, this same code was uploaded to the NEXYS 2.  
 
 This is how it was done: 
-1) a library was added to the beginning of the code for standard logic.  
+1) A library was added to the beginning of the code for standard logic.  
 2) The names of the inputs and the outputs of the circuit were initialized and classified as standard logic signals.
 3) All of the wires in the middle of the circuit were named, just like the schematic above, initialized, and classified as standard logic signals.  
 4) In the "begin" seciton, the logic for how the wires, A, B, C, NOT-A, NOT_B, NOT_C, H,I,J,K,L,X,Y,AND Z relate was created.  This was done using basic commands such as "and", "or", and "not".  
 5) The hyperlink to the code is: https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd 
 **Note: This code also contains the code for the 8-bit 2's compliment inverter (explained later in README).  Most of the code for the 3 bit 2's compliment inverter in commented out with "--" preceding it.  
+
+#**Testing Code for 3 bit 2's Compliment Inverter**
+This was also done using ISE Project Navigator
+
+It was done by: 
+1) Importing a standard logic library at the beginning of the code.
+2) Declaring the inputs and outputs, just like the previous section. 
+3) Farther down, every test case, originally thought of in the truth table, was recreated.  Every possible combination of A,B, and C was created and then held for 100ns.  The delay is so the test can be viewed.  This was done to make sure every output occurs the way it is supposed to.  A graphical test can be seen in the section below.  The graph shows the binary values of the inputs and outputs at specific points in time.  
+4) This is a link to the test code:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_testbench_Terragnoli.vhd 
+
+
 
 
 #**Test Waves**
