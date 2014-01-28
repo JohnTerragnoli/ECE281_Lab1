@@ -82,6 +82,17 @@ After the 3 bit 2's Compliment inverter was deemed to have worked correctly, the
 
 In fact, the modification are still in place in this file for the 8 bit 2's compliment converter.  Most of the coding was similar as the code for the 3 bit.  
 
+Also, the way to find the inverse in 2's compliment for the 8 bit was much different than the 3 bit.  Instead of finding the truth table, schematic, and then translating that schematic into code, each bit of the 8 bit number was inverted, and then 1 was added to the number.  The result is always the inverse in 2's compliment.  
+
+The follow are the changes between the coding for the logic of the 3 bit and the 8 bit: 
+1) When initializing the input and output ports, standard logic vectors were used.  This basically groups bits together so that they can act like numbers and undergo basic operations.  The vectors created 8 inputs and 8 outputs.  
+2) A second library was added to the top of the code.  This allows addition to occur when the bits are linked to form a number.  
+3) There were no middle wires, and the conversion from the input to the output only took one line of code.  Therefore, the wires like J,K,L. etc. were not needed and were commented out.  
+4) For the logic of the code, the not of each input was taken.  Then the cast "UNSIGNED" was added to these resulting bits, making them like one number.  Then 1 was added to this number.  Then, this number was converted back into individual bits using the cast std_logic_vector.  
+5) All other logic used in the 3 bit was commented out.  
+
+After these changes were made to the logic code, changes needed to be made to the .ucf file that determines where the inputs will be received and where the outputs will show up on the NEXYS 2 board.  Again, this file can be viewed at this link:  
+
 
 
 #**Analysis**
