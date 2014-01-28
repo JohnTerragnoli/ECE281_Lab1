@@ -85,6 +85,7 @@ In fact, the modification are still in place in this file for the 8 bit 2's comp
 Also, the way to find the inverse in 2's compliment for the 8 bit was much different than the 3 bit.  Instead of finding the truth table, schematic, and then translating that schematic into code, each bit of the 8 bit number was inverted, and then 1 was added to the number.  The result is always the inverse in 2's compliment.  
 
 *The follow are the changes between the coding for the logic of the 3 bit and the 8 bit:* 
+
 1. When initializing the input and output ports, standard logic vectors were used.  This basically groups bits together so that they can act like numbers and undergo basic operations.  The vectors created 8 inputs and 8 outputs.  
 2. A second library was added to the top of the code.  This allows addition to occur when the bits are linked to form a number.  
 3. There were no middle wires, and the conversion from the input to the output only took one line of code.  Therefore, the wires like J,K,L. etc. were not needed and were commented out.  
