@@ -75,6 +75,7 @@ The .ucf file was used, along with the .bit file lab1_terragnoli.bit, to upload 
 
 #**3 Bit 2's Compliment Inverter Functionality Test**
 The functionality of the programmed NEXYS 2 was then tested.  All tests worked perfectly and corresponded with the truth table.  
+A video of the test can be seen here in this repository called Testing 3 bit.MOV.  Unfortunately, the video is too big to be saved on this page.  
 
 #**Expanding to 8 Bits**
 After the 3 bit 2's Compliment inverter was deemed to have worked correctly, the code was expanded upon to work with 8 bit numbers, instead of just 3 bit numbers.  To do this, it was necessary to update the .vhd file that eventually programs the NEXYS 2 board.  The file that underwent modifications is posted here:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd  
@@ -99,7 +100,7 @@ After these changes were made to the logic code, changes needed to be made to th
 3. The inputs were specified to be the switches on the NEXYS 2 board, and the outputs were labeled to be the LEDs above the switches.  
 4. The location of the inputs and outputs are written on the NEXYS 2 board.  
 
-The .ucf file was then uploaded to the NEXYS 2 board using the same process as for the 3 bit.  The 8 bit 2's compliment converter worked perfectly with multiple test cases.  
+The .ucf file was then uploaded to the NEXYS 2 board using the same process as for the 3 bit.  The 8 bit 2's compliment converter worked perfectly with multiple test cases.  A video of this can be seen in this respository, labeled Testing 8 bit 2.MOV.  Unfortunately the video is too long to post to this README.  :(
 
 
 
