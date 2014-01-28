@@ -39,21 +39,21 @@ This was done in ISE Project Navigator.  This was a .vhd file.
 The logic from this circuit was then recreated, using code, in a new project in ISE Project Navigator. This was done so that the logic could be tested against many test cases, which is below.  Also, this same code was uploaded to the NEXYS 2.  
 
 This is how it was done: 
-1) A library was added to the beginning of the code for standard logic.  
-2) The names of the inputs and the outputs of the circuit were initialized and classified as standard logic signals.
-3) All of the wires in the middle of the circuit were named, just like the schematic above, initialized, and classified as standard logic signals.  
-4) In the "begin" seciton, the logic for how the wires, A, B, C, NOT-A, NOT_B, NOT_C, H,I,J,K,L,X,Y,AND Z relate was created.  This was done using basic commands such as "and", "or", and "not".  
-5) The hyperlink to the code is: https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd 
+1. A library was added to the beginning of the code for standard logic.  
+2. The names of the inputs and the outputs of the circuit were initialized and classified as standard logic signals.
+3. All of the wires in the middle of the circuit were named, just like the schematic above, initialized, and classified as standard logic signals.  
+4. In the "begin" seciton, the logic for how the wires, A, B, C, NOT-A, NOT_B, NOT_C, H,I,J,K,L,X,Y,AND Z relate was created.  This was done using basic commands such as "and", "or", and "not".  
+5. The hyperlink to the code is: https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_Terragnoli.vhd 
 **Note: This code also contains the code for the 8-bit 2's compliment inverter (explained later in README).  Most of the code for the 3 bit 2's compliment inverter in commented out with "--" preceding it.  
 
 #**Testing Code for 3 bit 2's Compliment Inverter**
 This was also done using ISE Project Navigator.  It was a .vhd file.
 
 It was done by: 
-1) Importing a standard logic library at the beginning of the code.
-2) Declaring the inputs and outputs, just like the previous section. 
-3) Farther down, every test case, originally thought of in the truth table, was recreated.  Every possible combination of A,B, and C was created and then held for 100ns.  The delay is so the test can be viewed.  This was done to make sure every output occurs the way it is supposed to.  A graphical test can be seen in the section below.  The graph shows the binary values of the inputs and outputs at specific points in time.  
-4) This is a link to the test code:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_testbench_Terragnoli.vhd 
+1. Importing a standard logic library at the beginning of the code.
+2. Declaring the inputs and outputs, just like the previous section. 
+3. Farther down, every test case, originally thought of in the truth table, was recreated.  Every possible combination of A,B, and C was created and then held for 100ns.  The delay is so the test can be viewed.  This was done to make sure every output occurs the way it is supposed to.  A graphical test can be seen in the section below.  The graph shows the binary values of the inputs and outputs at specific points in time.  
+4. This is a link to the test code:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab1_testbench_Terragnoli.vhd 
 
 
 
@@ -84,14 +84,21 @@ In fact, the modification are still in place in this file for the 8 bit 2's comp
 
 Also, the way to find the inverse in 2's compliment for the 8 bit was much different than the 3 bit.  Instead of finding the truth table, schematic, and then translating that schematic into code, each bit of the 8 bit number was inverted, and then 1 was added to the number.  The result is always the inverse in 2's compliment.  
 
-The follow are the changes between the coding for the logic of the 3 bit and the 8 bit: 
-1) When initializing the input and output ports, standard logic vectors were used.  This basically groups bits together so that they can act like numbers and undergo basic operations.  The vectors created 8 inputs and 8 outputs.  
-2) A second library was added to the top of the code.  This allows addition to occur when the bits are linked to form a number.  
-3) There were no middle wires, and the conversion from the input to the output only took one line of code.  Therefore, the wires like J,K,L. etc. were not needed and were commented out.  
-4) For the logic of the code, the not of each input was taken.  Then the cast "UNSIGNED" was added to these resulting bits, making them like one number.  Then 1 was added to this number.  Then, this number was converted back into individual bits using the cast std_logic_vector.  
-5) All other logic used in the 3 bit was commented out.  
+*The follow are the changes between the coding for the logic of the 3 bit and the 8 bit:* 
+1. When initializing the input and output ports, standard logic vectors were used.  This basically groups bits together so that they can act like numbers and undergo basic operations.  The vectors created 8 inputs and 8 outputs.  
+2. A second library was added to the top of the code.  This allows addition to occur when the bits are linked to form a number.  
+3. There were no middle wires, and the conversion from the input to the output only took one line of code.  Therefore, the wires like J,K,L. etc. were not needed and were commented out.  
+4. For the logic of the code, the not of each input was taken.  Then the cast "UNSIGNED" was added to these resulting bits, making them like one number.  Then 1 was added to this number.  Then, this number was converted back into individual bits using the cast std_logic_vector.  
+5. All other logic used in the 3 bit was commented out.  
 
-After these changes were made to the logic code, changes needed to be made to the .ucf file that determines where the inputs will be received and where the outputs will show up on the NEXYS 2 board.  Again, this file can be viewed at this link:  
+After these changes were made to the logic code, changes needed to be made to the .ucf file that determines where the inputs will be received and where the outputs will show up on the NEXYS 2 board.  Again, this file can be viewed at this link:  https://raw.github.com/JohnTerragnoli/ECE281_Lab1/master/Lab_01_JPT.ucf
+
+*Changes made to the .ucf file:*
+1. 8 inputs were made, labeled A(0)->A(7)
+2. 8 outputs were made, labeled Z(0)->Z(7)
+3. The inputs were specified to be the switches on the NEXYS 2 board, and the outputs were labeled to be the LEDs above the switches.  
+
+The .ucf file was then uploaded to the NEXYS 2 board using the same process as for the 3 bit.  The 8 bit 2's compliment converter worked perfectly with multiple test cases.  
 
 
 
